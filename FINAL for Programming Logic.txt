@@ -1,0 +1,61 @@
+# BobaRepublic.py - Boba Republic has been know for selling delicious milk tea drinks. This program is created to search for and print the orders and prices of boba milk tea orders of 10 customers.
+
+# Output: The name and prices of boba milk tea orders of customers.
+
+# Declare the variables 
+NUM_ITEMS = 10 # Named Constant
+
+# List of Boba milk tea flavors of 10 customers
+bobaMilkTeaFlvs = ["Coffee", "Mango", "Taro", "Kiwi", "Coconut", "Honeydew", "Mathcha", "Chai", "Peach", "Lychee"]
+
+# List size of boba milk tea drinks of the 10 customers
+bobaPrices = ["small", "medium", "large", "small", "small", "medium", "large", "medium", "small", "medium"]
+
+# Initialized list of add-ons to boba milk tea drink
+addOn = ["Boba", "Mango Jelly", "Red Tapioca", "Combo Jelly", "Coffee Jelly"]
+
+# add = add-ons to boba milk tea drink
+
+#Initialized list of add-onsprices of boba milk tea drinks
+addOnPricesOfDrink = [0.5, 1.25, 0.36, 0.79, 1.10]
+
+orderTotal = 1.00 # Order starts with a charge of 1.00 charge if the drink is small
+addOn = ""
+# "NO" = no add-on for order
+while addOn is "NO" : 
+#Get user input
+    addOn = input ("Enter boba milk tea add-on or NO to quit: ")
+
+if addOn in add-ons :
+    foundAddOn = input("Enter boba milk tea drink add-on or NO to quit: ")
+    index = addOns.index(addOn)
+    print(addIn + "Price is $" + str(addOnPricesOfDrink[index]))
+    orderTotal = orderTotal + addOnPricesOfDrink
+else:
+      orderTotal = 1.50 # Order starts with a charge of 1.50 charge if the drink is medium
+      addOn = ""
+      # "NO" = no add-on for order
+      while addOn is "NO" :
+      #Get user input
+          addOn = input("Enter boba milk tea add-on or NO to quit: ")
+
+          if addOn in add-ons :
+              foundAddOn = input("Enter boba milk tea drink add-on or NO to quit: ")
+              index = addOns.index(addOn)
+              print(addIn + "Price is $" + str(addOnPricesOfDrink[index]))
+              orderTotal = orderTotal + addOnPricesOfDrink
+else:
+orderTotal = 2.00 # Order starts with a charge of 2.00 charge if the drink is large
+addOn = ""
+while addOn is "NO" :
+#Get user input
+     addOn = input ("Enter boba milk tea add-on or NO to quit: ")
+
+if addOn in add-ons :
+   foundAddOn = input("Enter boba milk tea drink add-on or NO to quit: ")
+   index = addOns.index(addOn)
+   print(addIn + "Price is $" + str(addOnPricesOfDrink[index]))
+   orderTotal = orderTotal + addOnPricesOfDrink
+	
+# Write the rest of the program here.
+print("Order Total is $" + str(orderTotal))
